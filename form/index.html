@@ -1,0 +1,83 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+   <div class="container">
+      <header class="header">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </header>
+      <form id="survey-form">
+        <div>
+          <label id="name-label"for="name"> Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required/>
+        </div>
+         <div>
+          <label id="email-label" for="email"> Email </label>
+          <input type="email" id="email" placeholder="Enter your Email" required />
+         </div>
+         <div>
+          <label id="number-label"for="number"> Age (optional) </label>
+          <input type="number" id="number" min="10" max="99"placeholder="Age" required/>
+         </div>
+          <div>
+            <p>Which option best describes your current role?</p>
+            <select id="dropdown">
+            <option select off value="select">Select current role </option>
+            <option student value="student"> Student</option>
+            <option full time value="fulltimejob"> Full Time Job </option>
+            <option full time learner value="fulltimelearner"> Full Time Learner </option>
+            <option not to say value="prefernottosay">Prefer not to say </option>
+ <option other value="other">Other</option>
+     </select>
+    </div>
+        
+   <div>
+   <p class="input-radio">Would you recommend freeCodeCamp   to a friend?</p>
+     <label><input type="radio" name="recommend" value="definitely" class="input-radio" checked/>Definitely</label>
+     <label><input type="radio" name="recommend" value="maybe" class="input-radio" checked/>Maybe</label>
+     <label><input type="radio" name="recommend" value="notsure" class="input-radio" checked/>Not Sure</label>
+        </div>
+          
+        <div >
+           <p> What would you like to see improved? <span>(Check all that apply)</span></p>
+       <label><input name="prefer" type="checkbox" value="Back-end" class="input-checkbox"/>Back End</label>
+        <label><input name="prefer" type="checkbox" value="front-end" class="input-checkbox"/>Front End</label>
+        <label><input name="prefer" type="checkbox" value="challengs" class="input-checkbox"/>Challenges</label>
+        <label><input name="prefer" type="checkbox" value="react" class="input-checkbox"/>React</label>
+        <label><input name="prefer" type="checkbox" value="Back-end" class="input-checkbox"/>Back End</label>
+        <label><input name="prefer" type="checkbox" value="forum" class="input-checkbox"/>Forum</label>
+        <label><input name="prefer" type="checkbox" value="courses" class="input-checkbox"/>Courses</label>
+        
+        
+          
+        </div>
+        
+        <div>
+          <p> Any comments or suggestions? </p>
+    <textarea name="comment" id="comment" placeholder="Enter your comment here.." class="input-textarea" ></textarea>
+        </div>
+        <div>
+          <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+       </div>  
+      </form>
+      
+    
+ 
+    
+      
+    
+ 
+    
+      
+    
+  </body>
+  </html>
+
+    

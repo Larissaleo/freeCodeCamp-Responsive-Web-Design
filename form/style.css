@@ -1,0 +1,25 @@
+#survey-form{
+  
+}
+label{
+  display: flex;
+  align-items: center;
+}
+.input-radio{
+  display: inline-block;
+ 
+}
+
+.container{
+  align-item: center;
+}
+
+#name-label,
+#email-label,
+#number-label{
+  display: block;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0px;
+}
